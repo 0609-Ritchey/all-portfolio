@@ -1,0 +1,282 @@
+@media (max-width: 767px) {
+  .list-inner {
+    display: none;
+  }
+
+  .nav-box {
+    position: fixed;
+    right: 6%;
+    top: 7%;
+    z-index: 10000;
+  }
+
+  .nav_toggle {
+    position: absolute;
+    right: 6%;
+    top: 7%;
+    display: block;
+    width: 2.25rem;
+    height: 1.75rem;
+    z-index: 11000;
+    margin-right: 20px;
+    z-index: 1000;
+  }
+
+  .nav_toggle i {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .nav_toggle i:nth-child(1) {
+    top: 0;
+  }
+
+  .nav_toggle i:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .nav_toggle i:nth-child(3) {
+    bottom: 0;
+  }
+
+  .nav_toggle.show i:nth-child(1) {
+    transform: translateY(10.8px) rotate(-45deg);
+  }
+
+  .nav_toggle.show i:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav_toggle.show i:nth-child(3) {
+    transform: translateY(-14px) rotate(45deg);
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    opacity: 0;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .nav_menu_ul {
+    width: 100%;
+    list-style: none;
+  }
+
+  .nav li {
+    padding: 20px 0;
+  }
+
+  .nav li:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .nav.show {
+    width: 100%;
+    display: inline-block;
+    z-index: 900;
+    background-color: white;
+    opacity: 1;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .ttl {
+    margin-top: 200px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100vh;
+  }
+  .ttl-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .ttl-main {
+    margin-top: 0;
+  }
+  .ttl-main h1 {
+    font-size: 80px;
+    letter-spacing: 0px;
+  }
+  .ttl-main span {
+    font-size: 80px;
+  }
+  .ttl-main h2 {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+  .ttl-main p {
+    font-size: 12px;
+  }
+  .ttl-vertical h2 {
+    margin-top: -20px;
+    font-size: 18px;
+    height: auto;
+    letter-spacing: 3px;
+    position: absolute;
+    right: 10%;
+  }
+
+  .list::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 30vw solid #9966FF;
+    border-left: 80vw solid transparent;
+  }
+
+  .pt {
+    position: fixed;
+    bottom: 5%;
+  }
+
+  .about {
+    width: 100%;
+  }
+  .about-ttl {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .about-ttl h2 {
+    font-size: 34px;
+  }
+  .about-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .about-box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .about-texts {
+    text-align: center;
+  }
+  .about-texts h3 {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  .about-texts p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .about-icon img {
+    width: 100%;
+  }
+
+  .service {
+    width: 100%;
+  }
+  .service-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-ttl h2 {
+    font-size: 34px;
+  }
+  .service-box {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .service-box img {
+    width: 100%;
+  }
+  .service-texts h3 {
+    margin-top: 30px;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+  .swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  .swiper-ttl h2 {
+    font-size: 34px;
+  }
+  .swiper-slide {
+    padding: 0 20px;
+  }
+  .swiper-slide img {
+    width: 100%;
+  }
+  .swiper-pagination {
+    padding-bottom: 25%;
+  }
+
+  .contact {
+    position: relative;
+  }
+  .contact-inner {
+    padding: 0 20px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-ttl h2 {
+    margin-bottom: 60px;
+    font-size: 34px;
+  }
+  .contact-ttl p {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+
+  .contact::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 20vw solid #9966FF;
+    border-right: 60vw solid transparent;
+  }
+
+  .contact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 20vw solid #9966FF;
+    border-left: 60vw solid transparent;
+  }
+
+  .twitter-btn img {
+    width: 52.5px;
+  }
+
+  .instagram-btn img {
+    width: 75px;
+  }
+}
+
+/*# sourceMappingURL=style-sp.css.map */
