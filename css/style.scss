@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Hiragino Kaku Gothic ProN';
+}
+
 .nav {
     display: none;
 }
@@ -110,6 +114,7 @@ a {
         h2 {
             margin-top: 40px;
             position: absolute;
+            top: -5%;
             right: 23%;
             writing-mode: vertical-rl;
             font-size: 28px;
@@ -136,9 +141,9 @@ a {
         text-align: center;
         h2 {
             font-size: 42px;
-            font-family: 'Roboto', sans-serif;
             letter-spacing: 15px;
             text-indent: 15px;
+            font-family: 'Roboto', sans-serif;
         }
     }
 
@@ -158,11 +163,11 @@ a {
         h3 {
             font-size: 32px;
             margin-bottom: 45px;
+            font-family: 'Roboto', sans-serif;
         }
         p {
             letter-spacing: 0.7px;
             line-height: 1.8;
-            font-family: "Gothic MB101 Medium";
         }
     }
 
@@ -211,12 +216,11 @@ a {
             margin-top: 40px;
             margin-bottom: 30px;
             text-align: center;
-            font-family: "Gothic MB101 Medium";
+            font-family: 'Hiragino Kaku Gothic ProN';
         }
         p {
             font-size: 14px;
             line-height: 2;
-            font-family: "Gothic MB101 Medium";
         }
     }
 }
@@ -271,6 +275,11 @@ a {
     }
 }
 
+.swiper-slide img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
 .contact {
     overflow: hidden;
     position: relative;
@@ -293,7 +302,6 @@ a {
         }
         p {
             margin-top: 40px;
-            font-family: "Gothic MB101 Medium";
         }
     }
 
