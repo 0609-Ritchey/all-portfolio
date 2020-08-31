@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
 .nav {
   display: none;
 }
@@ -105,6 +109,7 @@ a {
 .ttl-vertical h2 {
   margin-top: 40px;
   position: absolute;
+  top: -5%;
   right: 23%;
   writing-mode: vertical-rl;
   font-size: 28px;
@@ -127,9 +132,9 @@ a {
 }
 .about-ttl h2 {
   font-size: 42px;
-  font-family: 'Roboto', sans-serif;
   letter-spacing: 15px;
   text-indent: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 .about-inner {
   max-width: 1024px;
@@ -144,11 +149,11 @@ a {
 .about-texts h3 {
   font-size: 32px;
   margin-bottom: 45px;
+  font-family: 'Roboto', sans-serif;
 }
 .about-texts p {
   letter-spacing: 0.7px;
   line-height: 1.8;
-  font-family: "Gothic MB101 Medium";
 }
 .about-icon img {
   width: 500px;
@@ -189,12 +194,11 @@ a {
   margin-top: 40px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Gothic MB101 Medium";
+  font-family: 'Hiragino Kaku Gothic ProN';
 }
 .service-texts p {
   font-size: 14px;
   line-height: 2;
-  font-family: "Gothic MB101 Medium";
 }
 
 .box {
@@ -238,6 +242,11 @@ a {
   padding-bottom: 10%;
 }
 
+.swiper-slide img:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
 .contact {
   overflow: hidden;
   position: relative;
@@ -260,7 +269,6 @@ a {
 }
 .contact-ttl p {
   margin-top: 40px;
-  font-family: "Gothic MB101 Medium";
 }
 .contact-btn {
   margin-top: 50px;
