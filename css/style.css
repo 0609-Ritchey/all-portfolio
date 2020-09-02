@@ -345,4 +345,55 @@ a:hover::before {
   width: 100%;
 }
 
+.fade-left {
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: opacity 2s,transform 1.5s;
+}
+
+.fadeinL {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-left-h2 {
+  opacity: 0;
+  transition: opacity 2.5s;
+}
+
+.fadeinL-h2 {
+  opacity: 1;
+}
+
+.fade-bottom {
+  transform: translateY(200px);
+  opacity: 0;
+  transition: opacity 2s,transform 2s;
+}
+
+.fadeinB {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ttl-vertical {
+  opacity: 0;
+  transition: opacity 2.5s;
+}
+
+.fadeinV {
+  opacity: 1;
+}
+
+.fade-show {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: opacity 1.5s,transform 1.5s;
+}
+
+.fadeon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /*# sourceMappingURL=style.css.map */
